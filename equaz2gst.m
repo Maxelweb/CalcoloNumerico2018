@@ -1,7 +1,7 @@
 % ----------------------
 %
 %	Esercizio 2 - Lezione 2
-%	Risolvere l'equazione di secondo grado a coeff. reali. usando sign(x)
+%	Risolvere l'equazione di secondo grado a coeff. reali. usando sign(x) e formule stabili
 %
 % ----------------------
 
