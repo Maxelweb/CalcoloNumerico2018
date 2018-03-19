@@ -1,11 +1,11 @@
 % ----------------------
 %
-%	Esercizio 1 - Lezione 2
-%	Risolvere l'equazione di secondo grado a coeff. reali.
+%	Esercizio 2 - Lezione 2
+%	Risolvere l'equazione di secondo grado a coeff. reali. usando sign(x)
 %
 % ----------------------
 
-fprintf('Esercizio 2 - Soluzioni equaz. di secondo grado con formule instabili \n')
+fprintf('Esercizio 2 - Soluzioni equaz. di secondo grado usando sign con formule stabili \n')
 a = input('Valore di a: ');
 b = input('Valore di b: ');
 c = input('Valore di c: ');
@@ -18,9 +18,9 @@ else
     if(delta < 0) 
     	fprintf('[ERRORE] Il discriminante risulta negativo! \n');
     else
-    		
-    	x1 = (-b-sqrt(delta))/(2*a);
-    	x2 = (-b+sqrt(delta))/(2*a);
+
+    	x1 = (-b-sign(b)*(sqrt(delta)))/(2*a);
+    	x2 = (c / (a * x1));
     
     	fprintf('Il valore di x1 = %1.0e \nIl valore di x2 = %1.0e \n', x1, x2);
     
