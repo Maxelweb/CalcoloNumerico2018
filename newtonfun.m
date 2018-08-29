@@ -31,7 +31,7 @@ while diff >= toll && n < nmax && flag == 0
     
     f1x = feval(f1, x);
     if f1x == 0
-        flag = 1
+        flag = 1;
     else
         fx = feval(f, x);
         xv = [xv; x];
@@ -42,6 +42,8 @@ while diff >= toll && n < nmax && flag == 0
         n = n + 1;
     end
 end
+
+
 
         
 

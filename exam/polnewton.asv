@@ -1,0 +1,25 @@
+
+
+function c = polnewton (x,y)
+% POLNEWTON Calcola i coefficienti del polinomio interpolatore
+% utilizzando la forma di Newton con le differenze divise
+%
+% Uso:
+% c = polnewton (x,y)
+%
+% Dati di ingresso:
+% x vettore dei nodi
+% y vettore dei valori della funzione da interpolare nei nodi
+%
+% Dati di uscita:
+% c vettore colonna dei coefficienti ordinati per indici
+% crescenti (c_0, c_1, ... )
+
+n = length(x);
+if n ~= length(y);
+    fprintf('\n Errore! La tabulazione non contiene lo stesso numero di componenti \n');
+end
+
+for i = 1:1:n
+    c = u(i, 1)
+end
